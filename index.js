@@ -1,3 +1,2 @@
-module.exports = (val) => {
-  console.log(val);
-};
+#! /usr/bin/env node
+console.log("my-cat!")
