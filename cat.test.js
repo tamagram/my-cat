@@ -13,7 +13,7 @@ describe("test get_text_content", () => {
   });
 });
 
-describe("test attach_text_indent", () => {
+describe("test text_coloring", () => {
   test("bucketに当たる部分に制御文字を追加", () => {
     want = [
       "\x1B[33m[\x1B[0m",
