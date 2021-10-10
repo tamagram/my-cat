@@ -7,6 +7,9 @@
   "devDependencies": {
     "jest": "^27.2.5"
   },
+  "bin": {
+    "cli": "index.js"
+  },
   "scripts": {
     "test": "jest"
   },
